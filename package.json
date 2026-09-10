@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "test:headed": "playwright test --headed",
+    "test:headed": "playwright test --headed --workers=1",
     "test:ui": "playwright test --ui",
     "test:chromium": "playwright test --project=chromium",
     "test:debug": "playwright test --debug",

@@ -1,0 +1,15 @@
+target/
+.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TestNG reports
+test-output/
